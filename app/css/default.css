@@ -1,0 +1,103 @@
+﻿* {
+  margin: 0;
+	padding: 0;
+}
+html {
+  /* overflow-y: scroll;  */
+}
+a img {
+	border: none;
+}
+.roundCornerSmall {
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;		
+	border-radius: 5px;
+}
+.roundCornerMedium {
+  -moz-border-radius: 10px;
+  -webkit-border-radius: 10px;		
+	border-radius: 10px;
+}
+.roundCornerLarge {
+  -moz-border-radius: 15px;
+  -webkit-border-radius: 15px;		
+	border-radius: 15px;
+}
+
+/***************************** forms ******************************/
+label, input {
+  vertical-align: middle;
+}
+form div#error_summary {
+  color: red; 
+	border: red 1px solid; 
+	padding: 2em; 
+	margin-bottom: 2em;
+}
+form td {
+  padding-bottom: 15px;
+  vertical-align: top;
+}
+form input.error, form textarea.error {
+ border: solid 1px #cc222a;
+ background: url('../images/icons/not_ok.gif') no-repeat #ff9f9f right 2px; 
+}
+form input.pass, form textarea.pass {
+  background: url('../images/icons/ok.gif') no-repeat #fff right 2px;
+}
+form .required {
+  color: #cc222a;
+}
+p.error {
+  background: url(../images/icons/error_01.gif) no-repeat left 1px;
+  padding-left: 22px;
+  text-align: left;  
+  margin-top: 3px;
+	margin-bottom: 10px;
+  color: #cc222a;
+  line-height: 20px;
+  font-weight: bold;   
+}
+#confirm {
+  background: url(../images/icons/confirm_01.gif) no-repeat left 1px;
+  padding-left: 23px;
+  text-align: left;
+  margin-top: 10px;
+	margin-bottom: 10px;
+  color: #00a500;
+  font-weight: bold;
+  line-height: 20px;
+}
+form .hint {
+  color: #00a500;
+  margin-bottom: 3px;
+}
+/* use the next two rules for check boxes */
+form .error label {
+	background: url('../images/icons/not_ok.gif') no-repeat #ff9f9f right center !important;
+	padding-right: 20px;
+}
+form .pass label {
+	/*
+	background: url('../images/icons/ok.gif') no-repeat #fff right center !important;
+	padding-right: 20px;	
+	*/
+}
+form select.error {
+  background: #ff9f9f;
+	border: solid 1px #cc222a;
+}
+
+/* add comment on what problem these lines fix */
+abbr[title], acronym[title] {
+	border-bottom-width: 0;
+}
+abbr[title]:before {
+	content: " ";
+}
+
+table, tr {
+	vertical-align: top;
+}
+
+

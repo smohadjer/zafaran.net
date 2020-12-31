@@ -1,0 +1,27 @@
+/******* Required slideshow rules *******/
+
+.slideshow {
+	position: relative;
+	overflow: hidden;
+	display: none;	
+}
+
+.slideshow .slides,
+.slideshow .slide {
+	position: absolute;
+}
+
+.slideshow .slide.currentSlide {
+	/* add rules here to style current slide */
+}
+	
+.slideshow .prev,
+.slideshow .next {
+	cursor: pointer;
+	text-decoration: underline;	
+}
+
+.slideshow .disabled {
+	cursor: default;
+	text-decoration: none;	
+}
